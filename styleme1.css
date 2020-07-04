@@ -1,0 +1,46 @@
+﻿h1
+{
+    font-family : Times new roman, serif;
+    font-size : 30px;
+    font-weight : 700;
+    text-transform : uppercase;
+    text-decoration : underline;
+    text-align : center;
+}
+
+table 
+{
+    margin : auto;
+    width : 30%;
+    height : 170px;
+    
+}
+   
+input[type = "button"]
+{
+    background-color : black ;
+    color : white ;
+    width : 110%;
+    height : 60px;
+    font-family : arial, sans-serif;
+    font-size : 20px;
+}
+
+input[type = "text"]
+{
+    width : 101%;
+    border-radius : 5px;
+    height : 30px;
+    font-family : arial, sans-serif;
+    font-size : 20px;
+}
+
+input[name = "absolute"], input[name = "squareroot"], input[name = "percentage"], input[name = "division"], input[name = "multiplication"], input[name = "subtraction"], input[name = "addition"]
+{
+     background-color : #808080;
+}
+
+input[name = "equalsymbol"]
+{
+     background-color : red;
+}

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Calculator</title>
+
+	<link rel = "stylesheet" type = "text/css" href = "styleme1.css">
+	<script src = "function.js"></script>
+
+</head>
+
+<body>
+
+	<h1>Basic Calculator</h1>
+
+     <form>
+	<table>
+	    <tr>
+		<td colspan = "4"><input type = "text" id = "outvalue"></td>
+            </tr>
+
+	    <tr>
+		<td><input type = "button" name = "absolute" value = "abs" onclick = "displaythis('abs(')"/></td>
+	  	<td><input type = "button" name = "squareroot" value = "sqrt" onclick = "displaythis('sqrt(')"/></td>
+		<td><input type = "button" name = "percentage" value = "%" onclick = "displaythis('%')"/></td>
+		<td><input type = "button" name = "division" value = "/" onclick = "displaythis('/')"/></td>
+	    </tr>
+
+	    <tr>
+		<td><input type = "button" name = "digitseven" value = "7" onclick = "displaythis(7)"/></td>
+	  	<td><input type = "button" name = "digiteight" value = "8" onclick = "displaythis(8)"/></td>
+		<td><input type = "button" name = "digitnine" value = "9" onclick = "displaythis(9)"/></td>
+		<td><input type = "button" name = "multiplication" value = "*" onclick = "displaythis('*')"/></td>
+	    </tr>
+
+	    <tr>
+		<td><input type = "button" name = "digitfour" value = "4" onclick = "displaythis(4)"/></td>
+	  	<td><input type = "button" name = "digitfive" value = "5" onclick = "displaythis(5)"/></td>
+		<td><input type = "button" name = "digitsix" value = "6" onclick = "displaythis(6)"/></td>
+		<td><input type = "button" name = "subtraction" value = "-" onclick = "displaythis('-')"/></td>
+	    </tr>
+
+	    <tr>
+		<td><input type = "button" name = "digitone" value = "1" onclick = "displaythis(1)"/></td>
+	  	<td><input type = "button" name = "digittwo" value = "2" onclick = "displaythis(2)"/></td>
+		<td><input type = "button" name = "digitthree" value = "3" onclick = "displaythis(3)"/></td>
+		<td><input type = "button" name = "addition" value = "+" onclick = "displaythis('+')"/></td>
+	    </tr>
+
+	    <tr>
+		<td><input type = "button" name = "dot" value = "." onclick = "displaythis('.')"/></td>
+	  	<td><input type = "button" name = "digitzero" value = "0" onclick = "displaythis(0)"/></td>
+		<td><input type = "button" name = "digitnine" value = "Clear" onclick = "deletes()"/></td>
+		<td><input type = "button" name = "equalsymbol" value = "=" onclick = "task()"/></td>
+	    </tr>
+	</table>
+     </form>
+
+
+
+</body>
+</html>

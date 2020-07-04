@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+
+	<link rel = "stylesheet" type = "text/css" href = "styleme2.css">
+        <script src = "function.js"></script>
+
+</head>
+
+<body>
+      <div class="register">
+	<h2>Registration Form</h2>
+      </div>
+
+     <div class="rform">
+         <form name="reg" onsubmit="return validateForm()" target="_self">
+ 	    <table>
+              <tr>	
+		<td><label>Name: </label></td>
+                <td><input type="text" name="name"></td><br>
+	      </tr>
+              <tr>
+		<td><label>Phone No: </label></td>
+                <td><input type="tel" name="phone" ></td><br>
+	      </tr>
+		<tr>
+		<td><label>E-mail: </label></td>
+                <td><input type="email" name="email"></td><br>
+	      </tr>
+	      <tr>
+		<td><input class="button" type="submit" value="Submit"></td>
+                 <td><input class="button" type="reset" value="Reset"></td><br>
+              </tr>
+             </table>
+	   </form>
+         </div>      	
+ 
+</body>
+</html>

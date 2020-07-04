@@ -1,0 +1,29 @@
+﻿*{
+   text-align : center;
+   margin-bottom : 40px;
+}
+
+h2 {
+   font-family:Arial , Helvetica, sans-serif;
+   font-weight:650;
+   font-style:normal;
+   text-transform:uppercase;
+   text-decoration:underline;
+}
+p {
+   font-family:Times New Roman, serif;
+   font-size:20px;
+}
+input[type="text"]{
+   padding:4px;
+   width:20%;
+   border-radius:5px;
+   border-color:#DCDCDC;
+   background-color:#F5F5F5;
+}
+
+.button {
+   background-color:#f4f4f4;
+   padding:5px 10px;
+   border-radius:8px;
+}

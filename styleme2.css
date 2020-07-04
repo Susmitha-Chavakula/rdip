@@ -1,0 +1,43 @@
+﻿.register {
+   padding:15px;
+   padding-bottom:0;
+   margin-top:15px;
+   margin:15px 0;
+   text-align:center;
+}
+.register h2 {
+   font-family:Arial , Helvetica, sans-serif;
+   font-weight:650;
+   font-style:normal;
+   text-transform:uppercase;
+   text-decoration:underline;
+}
+
+.rform {
+   font-family:Times New Roman, serif;
+   font-size:20px;
+}
+.rform table {
+   border-spacing: 15px;
+   margin :auto;
+   margin-top :-50px;
+}
+.rform table, td, tr{
+  text-align:center;
+  border-width:10px;
+  word-spacing:4px;
+ 
+}
+.rform input[type="text"], .rform input[type="tel"], .rform input[type="email"]{
+   padding:4px;
+   width:65%;
+   border-radius:5px;
+   border-color:#DCDCDC;
+   background-color:#F5F5F5;
+}
+
+.button {
+   background-color:#f4f4f4;
+   padding:5px 10px;
+   border-radius:8px;
+}
